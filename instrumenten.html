@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Instrumenten · Duel herlezen</title>
+  <meta name="description" content="Leesteksten, leidraden, oefeningen, raamkaders en evaluatie-instrumenten uit Duel, te doorzoeken per type, ontwerpprincipe en fase.">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#inhoud">Naar de inhoud</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html">
+        <span class="brand-name">Duel herlezen</span>
+        <span class="brand-sub">Een lerarenopleiding als pedagogisch denkwerk</span>
+      </a>
+      <div class="header-tools">
+        <button class="theme-toggle" type="button" aria-label="Wissel thema">☾</button>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="hoofdnavigatie">Menu</button>
+      </div>
+      <nav class="site-nav" id="hoofdnavigatie" aria-label="Hoofdnavigatie">
+        <ul>
+          <li><a href="waarom.html">Waarom Duel</a></li>
+          <li><a href="opbouw.html">Opbouw</a></li>
+          <li><a href="principes.html">Ontwerpprincipes</a></li>
+          <li><a href="instrumenten.html">Instrumenten</a></li>
+          <li><a href="begrippen.html">Begrippen</a></li>
+          <li><a href="open-vragen.html">Open vragen</a></li>
+          <li><a href="bronnen.html">Bronnen</a></li>
+          <li><a href="over.html">Over</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="inhoud" class="wrap">
+    <header class="page-head">
+      <span class="eyebrow">4 · Inspiratie</span>
+      <h1>Instrumenten</h1>
+      <p class="lead">Wat Duel concreet opleverde: leesteksten, leidraden, oefeningen, raamkaders en evaluatie-instrumenten. Je kunt ze filteren op soort, ontwerpprincipe en fase. Neem ze over, pas ze aan, laat je erdoor inspireren.</p>
+      <div class="todo">De documenten worden stap voor stap opgeschoond (zonder namen van studenten) en hier als download aangeboden. De archiefverwijzing onderaan elke kaart is een werkverwijzing voor de redactie en verdwijnt bij publicatie.</div>
+    </header>
+
+    <form class="filters" role="search" onsubmit="return false">
+      <div>
+        <label for="f-zoek">Zoeken</label>
+        <input id="f-zoek" type="search" placeholder="bv. betrokkenheid, reflectie…" autocomplete="off">
+      </div>
+      <div>
+        <label for="f-type">Soort</label>
+        <select id="f-type"><option value="">Alle soorten</option></select>
+      </div>
+      <div>
+        <label for="f-principe">Ontwerpprincipe</label>
+        <select id="f-principe"><option value="">Alle principes</option></select>
+      </div>
+      <div>
+        <label for="f-context">Fase of context</label>
+        <select id="f-context"><option value="">Alles</option></select>
+      </div>
+    </form>
+    <p class="result-count"><span id="resultaat" aria-live="polite"></span> · <button type="button" class="btn-link" id="f-reset">filters wissen</button></p>
+
+    <div id="instrumenten" class="grid grid-2"></div>
+
+    <section class="prose" aria-labelledby="soorten">
+      <h2 id="soorten">Welke soorten instrumenten zijn er?</h2>
+      <dl class="glossary">
+        <div><dt>Visietekst</dt><dd>Teksten van het team die de opzet en de redenen achter Duel uitleggen.</dd></div>
+        <div><dt>Raamkader</dt><dd>Finaliteit, thema's en doelen van een module of uitdaging: het "kader" uit gekaderd maatwerk.</dd></div>
+        <div><dt>Leestekst</dt><dd>Vaak een "mandje": een toegankelijke tekst voor studenten die de kern van een thema uitlegt.</dd></div>
+        <div><dt>Leidraad</dt><dd>Een stappenplan of set hulpvragen om zelfstandig met iets aan de slag te gaan.</dd></div>
+        <div><dt>Oefening</dt><dd>Casussen en opdrachten, vaak met verbetersleutel.</dd></div>
+        <div><dt>Evaluatie en feedback</dt><dd>Formulieren, sjablonen en rubrics voor begeleiding en beoordeling.</dd></div>
+        <div><dt>Presentatie</dt><dd>Sessiemateriaal van de lessen.</dd></div>
+        <div><dt>Planning</dt><dd>Hoe de tijd georganiseerd werd, als illustratie van een open maar gekaderde route.</dd></div>
+      </dl>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Duel herlezen · een archiefproject van Peter Van Sanden</p>
+      <p><a href="over.html">Over dit project</a> · <a href="bronnen.html">Bronnen</a></p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/instrumenten-data.js"></script>
+  <script src="assets/js/instrumenten.js"></script>
+</body>
+</html>
