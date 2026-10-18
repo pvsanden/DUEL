@@ -14,9 +14,19 @@
   var count = document.getElementById("resultaat");
   var reset = document.getElementById("f-reset");
 
+  // Een instrument kan meerdere soorten hebben (bv. leestekst én presentatie).
+  function types(d) { return Array.isArray(d.type) ? d.type : [d.type]; }
+
+  // Bestanden om te openen: "downloads" (lijst) of het oudere enkelvoudige "download".
+  function files(d) {
+    if (d.status !== "gepubliceerd") return [];
+    if (Array.isArray(d.downloads)) return d.downloads;
+    return d.download ? [{ label: "Brontekst", href: d.download }] : [];
+  }
+
   function uniq(key) {
     var seen = {};
-    data.forEach(function (d) { seen[d[key]] = true; });
+    data.forEach(function (d) { (key === "type" ? types(d) : [d[key]]).forEach(function (v) { seen[v] = true; }); });
     return Object.keys(seen).sort(function (a, b) { return a.localeCompare(b, "nl"); });
   }
 
@@ -50,7 +60,7 @@
   function card(d) {
     var c = el("article", "card instrument");
     var tags = el("div", "tags");
-    tags.appendChild(el("span", "tag accent", d.type));
+    types(d).forEach(function (t) { tags.appendChild(el("span", "tag accent", t)); });
     tags.appendChild(el("span", "tag", d.context));
     c.appendChild(tags);
     c.appendChild(el("h3", null, d.titel));
@@ -65,12 +75,19 @@
     });
     c.appendChild(pr);
 
-    if (d.status === "gepubliceerd" && d.download) {
-      var dl = el("a", "download", "Brontekst openen (PDF)" + (d.datum ? " · " + d.datum : ""));
-      dl.href = d.download;
-      dl.target = "_blank";
-      dl.rel = "noopener";
-      c.appendChild(dl);
+    var fl = files(d);
+    if (fl.length) {
+      var box = el("div", "downloads");
+      fl.forEach(function (f) {
+        var a = el("a", "download", f.label + " (PDF)");
+        a.href = f.href;
+        a.target = "_blank";
+        a.rel = "noopener";
+        if (f.toelichting) a.title = f.toelichting;
+        box.appendChild(a);
+      });
+      c.appendChild(box);
+      if (d.datum) c.appendChild(el("p", "meta", "Versie: " + d.datum));
     } else {
       c.appendChild(el("p", "status", "Nog te publiceren"));
       c.appendChild(el("p", "bron", "Archief: " + d.bron.join(" · ")));
@@ -86,11 +103,11 @@
     var t = fType.value, p = fPrincipe.value, cx = fContext.value;
 
     var hits = data.filter(function (d) {
-      if (t && d.type !== t) return false;
+      if (t && types(d).indexOf(t) === -1) return false;
       if (cx && d.context !== cx) return false;
       if (p && d.principes.indexOf(Number(p)) === -1) return false;
       if (q) {
-        var hay = (d.titel + " " + d.beschrijving + " " + d.module + " " + d.type).toLowerCase();
+        var hay = (d.titel + " " + d.beschrijving + " " + d.module + " " + types(d).join(" ")).toLowerCase();
         if (hay.indexOf(q) === -1) return false;
       }
       return true;

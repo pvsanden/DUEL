@@ -2,7 +2,9 @@
   Catalogus van instrumenten uit het Duel-archief.
   - principes: nummers 1-9 (zie principes.html)
   - bron: pad in database/2022-2023 (interne werkverwijzing; wordt later vervangen door een downloadlink)
-  - download: pad naar de gepubliceerde PDF in website/bronteksten (alleen bij status "gepubliceerd")
+  - type: één soort, of een lijst als het instrument meerdere vormen heeft (bv. ["Leestekst", "Presentatie"])
+  - downloads: lijst van { label, href, toelichting } naar PDF's in website/bronteksten (alleen bij status "gepubliceerd");
+    het oudere enkelvoudige veld "download" werkt ook nog
   - datum: versiedatum van het brondocument (optioneel)
   - status: "te publiceren" | "gepubliceerd"
   Documenten over individuele studenten horen hier niet thuis.
@@ -130,6 +132,24 @@ window.DUEL_INSTRUMENTEN = [
     beschrijving: "Hoe ontmoeten, zelfstandig spelen, begeleid exploreren en geleid leren kansen bieden binnen één ontwikkelveld, uitgewerkt voor wiskundig denken.",
     bron: ["Duel/uitdagingen_werkwijze/Kansen binnen een ontwikkelveld door de verschillende ervaringskansen die je kan aanbieden bij kleuters.docx"],
     status: "te publiceren"
+  },
+  {
+    titel: "De pedagogische opdracht van de leerkracht",
+    type: ["Leestekst", "Presentatie"], context: "U-fase", module: "Groeibevorderende relaties",
+    principes: [5, 6, 2],
+    beschrijving: "Leestekst en twee lessen die samen horen. Waartoe voeden we op? Met Biesta: het verlangen wekken om op een volwassen manier in de wereld te zijn. Waaruit bestaat het pedagogisch werk? Onderbreking, vertraging en ondersteuning, van macht naar gezag, en hoe ik-boodschappen en actief luisteren vrijheid bieden.",
+    bron: [
+      "Duel/A_Semester 2/Z_opvoeden/Cursus OPK-1_2019-2020_hfst 4_pedagogische opdracht.docx",
+      "Duel/A_Semester 2/Z_opvoeden/les 9_waartoe voeden we op.pptx",
+      "Duel/A_Semester 2/Z_opvoeden/les 10_waaruit bestaat het pedagogisch werk.pptx"
+    ],
+    downloads: [
+      { label: "Leestekst", href: "bronteksten/pedagogische-opdracht-van-de-leerkracht-opk1-hfst4.pdf", toelichting: "Cursushoofdstuk OPK-1, hoofdstuk 4 (2019-2020)" },
+      { label: "Presentatie les 9", href: "bronteksten/pedagogische-opdracht-les9-waartoe-voeden-we-op.pdf", toelichting: "Les 9: Waartoe voeden we op? (19 dia's, april 2023)" },
+      { label: "Presentatie les 10", href: "bronteksten/pedagogische-opdracht-les10-waaruit-bestaat-het-pedagogisch-werk.pdf", toelichting: "Les 10: Waaruit bestaat het pedagogisch werk? (27 dia's, april 2023)" }
+    ],
+    datum: "leestekst 2019-2020, presentaties april 2023",
+    status: "gepubliceerd"
   },
   {
     titel: "Ervaringsgericht werken als houding",
@@ -353,14 +373,6 @@ window.DUEL_INSTRUMENTEN = [
     principes: [3],
     beschrijving: "Oefeningen om betrokkenheid in te schatten met de Leuvense Betrokkenheidsschaal voor Kleuters.",
     bron: ["OPK/OPK-2/Lessen/Les 2_ - brede basiszorg, PKVS LOOQIN, betrokkenheid inschatten/BTH_oefenen met LBS-K/procesgericht kijken - scannen van betrokkenheid - oefeningen met LBS-k.ppt"],
-    status: "te publiceren"
-  },
-  {
-    titel: "De pedagogische opdracht: waartoe en waaruit?",
-    type: "Presentatie", context: "U-fase", module: "Groeibevorderende relaties",
-    principes: [5, 2],
-    beschrijving: "Twee lessen: waartoe voeden we op, en waaruit bestaat het pedagogische werk van een leerkracht?",
-    bron: ["Duel/A_Semester 2/Z_opvoeden/"],
     status: "te publiceren"
   },
 
