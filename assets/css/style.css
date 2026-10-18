@@ -328,6 +328,11 @@ figcaption { font-size: .9rem; color: var(--muted); margin-top: .5rem; }
 .instrument h3 { font-size: 1.12rem; margin: .2rem 0 .3rem; }
 .instrument .meta { font-size: .85rem; color: var(--muted); }
 .instrument .bron { font-size: .78rem; color: var(--muted); word-break: break-word; margin-top: .6rem; }
+.instrument .download {
+  display: inline-block; margin-top: .6rem; padding: .45rem .8rem; border-radius: 8px;
+  background: var(--accent); color: var(--accent-ink); font-weight: 600; font-size: .9rem; text-decoration: none;
+}
+.instrument .download:hover { filter: brightness(1.08); }
 .instrument .status { font-size: .8rem; color: var(--todo); font-weight: 600; }
 
 .glossary { margin: 0; }

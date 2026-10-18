@@ -65,9 +65,16 @@
     });
     c.appendChild(pr);
 
-    if (d.status !== "gepubliceerd") c.appendChild(el("p", "status", "Nog te publiceren"));
-    var bron = el("p", "bron", "Archief: " + d.bron.join(" · "));
-    c.appendChild(bron);
+    if (d.status === "gepubliceerd" && d.download) {
+      var dl = el("a", "download", "Brontekst openen (PDF)" + (d.datum ? " · " + d.datum : ""));
+      dl.href = d.download;
+      dl.target = "_blank";
+      dl.rel = "noopener";
+      c.appendChild(dl);
+    } else {
+      c.appendChild(el("p", "status", "Nog te publiceren"));
+      c.appendChild(el("p", "bron", "Archief: " + d.bron.join(" · ")));
+    }
     return c;
   }
 

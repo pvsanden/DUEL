@@ -2,6 +2,8 @@
   Catalogus van instrumenten uit het Duel-archief.
   - principes: nummers 1-9 (zie principes.html)
   - bron: pad in database/2022-2023 (interne werkverwijzing; wordt later vervangen door een downloadlink)
+  - download: pad naar de gepubliceerde PDF in website/bronteksten (alleen bij status "gepubliceerd")
+  - datum: versiedatum van het brondocument (optioneel)
   - status: "te publiceren" | "gepubliceerd"
   Documenten over individuele studenten horen hier niet thuis.
 */
@@ -25,7 +27,9 @@ window.DUEL_INSTRUMENTEN = [
     principes: [1, 2, 3, 4, 5, 6, 7, 8, 9],
     beschrijving: "De kerntekst: de negen opleidingsdidactische principes, met citaten, literatuur en bijlagen over de gehanteerde begrippen en de 'gekantelde opleiding'.",
     bron: ["Duel/Duel-BakoA/Team_11-01-23 en 23-01-23/ontwerpprincipes duel-curriculum_team_23-02-03.docx"],
-    status: "te publiceren"
+    download: "bronteksten/ontwerpprincipes-duel-curriculum-2023-02.pdf",
+    datum: "februari 2023",
+    status: "gepubliceerd"
   },
   {
     titel: "Raamkader leersituaties en begeleidingsrollen",
