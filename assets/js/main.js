@@ -46,6 +46,35 @@
     });
   }
 
+  // Samenhangschema: bij hover of focus op een principe de verbanden oplichten
+  var net = document.getElementById("netwerk");
+  if (net) {
+    var lines = net.querySelectorAll(".link");
+    var nodes = net.querySelectorAll(".node");
+    var show = function (n) {
+      net.classList.add("focus");
+      var linked = {}; linked[n] = true;
+      lines.forEach(function (l) {
+        var on = l.getAttribute("data-a") === n || l.getAttribute("data-b") === n;
+        l.classList.toggle("on", on);
+        if (on) { linked[l.getAttribute("data-a")] = true; linked[l.getAttribute("data-b")] = true; }
+      });
+      nodes.forEach(function (nd) { nd.classList.toggle("on", !!linked[nd.getAttribute("data-n")]); });
+    };
+    var clear = function () {
+      net.classList.remove("focus");
+      lines.forEach(function (l) { l.classList.remove("on"); });
+      nodes.forEach(function (nd) { nd.classList.remove("on"); });
+    };
+    nodes.forEach(function (nd) {
+      var n = nd.getAttribute("data-n");
+      nd.addEventListener("mouseenter", function () { show(n); });
+      nd.addEventListener("focus", function () { show(n); });
+      nd.addEventListener("mouseleave", clear);
+      nd.addEventListener("blur", clear);
+    });
+  }
+
   // Zoeken in de begrippenlijst
   var gSearch = document.getElementById("begrip-zoek");
   if (gSearch) {

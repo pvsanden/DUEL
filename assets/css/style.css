@@ -312,6 +312,52 @@ figcaption { font-size: .9rem; color: var(--muted); margin-top: .5rem; }
 .diagram .label-sm { fill: var(--ink-soft); font-family: var(--font-sans); font-size: 12.5px; }
 .diagram .edge { stroke: var(--muted); stroke-width: 1.5; fill: none; }
 
+/* ---------- samenhangschema (principes.html) ---------- */
+
+:root {
+  --g1: #dfeee7; --g1-line: #2e6b5c;   /* kader en inhoud */
+  --g2: #f7e6dc; --g2-line: #b4572f;   /* volle werkelijkheid */
+  --g3: #e6e4f3; --g3-line: #5a5296;   /* persoon en relatie */
+  --g4: #f3ecd2; --g4-line: #8a6d1d;   /* opleiding als voorbeeld */
+  --g5: #dcebf3; --g5-line: #2f6585;   /* reflectie als motor */
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --g1: #1f3530; --g1-line: #7cc0aa; --g2: #3a261d; --g2-line: #e39570; --g3: #2a2840; --g3-line: #aaa3e0;
+    --g4: #332b14; --g4-line: #e2c46e; --g5: #1b2e3a; --g5-line: #86bfe0;
+  }
+}
+:root[data-theme="dark"] {
+  --g1: #1f3530; --g1-line: #7cc0aa; --g2: #3a261d; --g2-line: #e39570; --g3: #2a2840; --g3-line: #aaa3e0;
+  --g4: #332b14; --g4-line: #e2c46e; --g5: #1b2e3a; --g5-line: #86bfe0;
+}
+.prose > .netwerk { width: min(880px, calc(100vw - 2 * var(--gutter))); max-width: none; }
+.netwerk svg { max-width: 820px; }
+.netwerk .link { stroke: var(--muted); stroke-width: 1.4; opacity: .35; transition: opacity .15s, stroke-width .15s; }
+.netwerk .link.on { opacity: 1; stroke-width: 2.6; stroke: var(--ink); }
+.netwerk.focus .link:not(.on) { opacity: .08; }
+.netwerk .node circle { stroke-width: 2; transition: transform .15s; }
+.netwerk .node text { fill: var(--ink); font-family: var(--font-sans); }
+.netwerk .node .nr { font-weight: 700; font-size: 17px; }
+.netwerk .node .nm { font-size: 14.5px; }
+.netwerk.focus .node:not(.on) { opacity: .45; }
+.netwerk a.node:focus { outline: none; }
+.netwerk a.node:focus circle, .netwerk a.node:hover circle { stroke-width: 3.5; }
+.netwerk .hub circle { fill: var(--surface); stroke: var(--line); stroke-width: 2; }
+.netwerk .hub text { fill: var(--ink); font-family: var(--font-serif); font-size: 15px; font-weight: 600; }
+.g1 circle { fill: var(--g1); stroke: var(--g1-line); } .g2 circle { fill: var(--g2); stroke: var(--g2-line); }
+.g3 circle { fill: var(--g3); stroke: var(--g3-line); } .g4 circle { fill: var(--g4); stroke: var(--g4-line); }
+.g5 circle { fill: var(--g5); stroke: var(--g5-line); }
+.legend { display: flex; flex-wrap: wrap; gap: .4rem .9rem; justify-content: center; font-size: .88rem; color: var(--ink-soft); margin-top: .6rem; }
+.legend span::before { content: ""; display: inline-block; width: .8em; height: .8em; border-radius: 50%; margin-right: .35em; vertical-align: -.05em; border: 2px solid; }
+.legend .l1::before { background: var(--g1); border-color: var(--g1-line); } .legend .l2::before { background: var(--g2); border-color: var(--g2-line); }
+.legend .l3::before { background: var(--g3); border-color: var(--g3-line); } .legend .l4::before { background: var(--g4); border-color: var(--g4-line); }
+.legend .l5::before { background: var(--g5); border-color: var(--g5-line); }
+.cluster { border-left: 4px solid var(--line); padding-left: 1rem; margin: 1.4rem 0; }
+.cluster.l1 { border-color: var(--g1-line); } .cluster.l2 { border-color: var(--g2-line); } .cluster.l3 { border-color: var(--g3-line); }
+.cluster.l4 { border-color: var(--g4-line); } .cluster.l5 { border-color: var(--g5-line); }
+.cluster h4 { margin-top: 0; }
+
 /* ---------- filters (instrumenten & begrippen) ---------- */
 
 .filters {
