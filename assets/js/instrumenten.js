@@ -70,7 +70,7 @@
     var pr = el("div", "tags");
     d.principes.forEach(function (n) {
       var a = el("a", "tag warm", n + " " + principes[n]);
-      a.href = "principes.html#" + anchor(n);
+      a.href = "principe-" + anchor(n) + ".html";
       pr.appendChild(a);
     });
     c.appendChild(pr);
