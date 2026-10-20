@@ -34,6 +34,16 @@ window.DUEL_INSTRUMENTEN = [
     status: "gepubliceerd"
   },
   {
+    titel: "Dromen over nieuwe keuzes: drie speerpunten",
+    type: "Visietekst", context: "Reguliere opleiding", module: "Stages",
+    principes: [1, 8, 9],
+    beschrijving: "Nota van het praktijkteam, ter inspiratie voor het team van de reguliere opleiding. Drie speerpunten: de vooruit-leun-houding met vijf droomkwaliteiten, 360 graden begeleiding en evaluatie, en gekaderd maatwerk. Werd vooral voor Duel een belangrijke inspiratiebron.",
+    bron: ["dromen over nieuwe keuzes_3-speerpunten_20-06-19.docx"],
+    download: "bronteksten/dromen-over-nieuwe-keuzes-drie-speerpunten-2020-06.pdf",
+    datum: "19 juni 2020",
+    status: "gepubliceerd"
+  },
+  {
     titel: "Raamkader leersituaties en begeleidingsrollen",
     type: "Visietekst", context: "Begeleiding", module: "Hele opleiding",
     principes: [4, 9],
