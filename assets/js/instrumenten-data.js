@@ -44,6 +44,26 @@ window.DUEL_INSTRUMENTEN = [
     status: "gepubliceerd"
   },
   {
+    titel: "Ontwikkelen van reflectiebekwaamheid in de opleiding",
+    type: "Visietekst", context: "Reguliere opleiding", module: "Stages",
+    principes: [3, 4, 5, 7, 9],
+    beschrijving: "Intern rapport, geschreven in opdracht van het opleidingshoofd, vanuit de werkgroep POP en de stagewerkgroep. Doorlichting van reflectie in het programma, de kloof tussen theorie en praktijk als opleidingsdidactische kwestie, zes kenmerken van goede reflectie, een leerlijn over drie jaar en een raamkader van leersituaties. Een belangrijke aanloop naar Duel.",
+    bron: ["../reflectiebekwaamheid ontwikkelen/visietekst_ontwikkelen van reflectiebekwaamheid_BAKO.docx"],
+    download: "bronteksten/ontwikkelen-van-reflectiebekwaamheid-visietekst-bako.pdf",
+    datum: "ongedateerd, vermoedelijk 2012–2013",
+    status: "gepubliceerd"
+  },
+  {
+    titel: "Leren zichtbaar maken: zelfevaluatie van reflectiebekwaamheid",
+    type: "Evaluatie en feedback", context: "Reguliere opleiding", module: "Stages",
+    principes: [5, 8, 9],
+    beschrijving: "Werkdocument van het praktijkteam: wat doe, weet en kan ik bij het reflecteren, hoe zet ik mijn onderzoekende houding in (opmerkzaam, nieuwsgierig, bedachtzaam, kritisch) en hoe zit ik in mijn leren? Met een actieplan. Onafgewerkte werkversie.",
+    bron: ["../reflectiebekwaamheid ontwikkelen/reflectie_instrument_zelfevaluatie_uitgebreid_19-12-03.docx"],
+    download: "bronteksten/leren-zichtbaar-maken-zelfevaluatie-reflectiebekwaamheid-2019-12.pdf",
+    datum: "3 december 2019",
+    status: "gepubliceerd"
+  },
+  {
     titel: "Raamkader leersituaties en begeleidingsrollen",
     type: "Visietekst", context: "Begeleiding", module: "Hele opleiding",
     principes: [4, 9],
