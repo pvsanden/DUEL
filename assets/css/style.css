@@ -402,6 +402,18 @@ figcaption { font-size: .9rem; color: var(--muted); margin-top: .5rem; }
 .site-footer .wrap { display: flex; flex-wrap: wrap; gap: 1rem 2rem; justify-content: space-between; }
 .site-footer a { color: var(--ink-soft); }
 
+/* Opbouw in semesters (opbouw.html) */
+.semesters { display: grid; grid-template-columns: .8fr 1.3fr 1.15fr 1.6fr; gap: 10px; margin: 1.2rem 0 1.4rem; }
+.sem { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: .85rem 1rem; font-size: .95rem; }
+.sem.o { background: var(--accent-soft); border-color: transparent; }
+.sem.u { background: var(--warm-soft); border-color: transparent; }
+.sem .when { display: block; font-size: .78rem; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); }
+.sem h3 { margin: .2rem 0 .45rem; font-size: 1.05rem; }
+.sem p { margin: .35rem 0; }
+.sem ul { margin: .3rem 0; padding-left: 1.1rem; }
+.sem li { margin: .15rem 0; }
+.sem-band { grid-column: 1 / -1; border: 1px dashed var(--line); border-radius: var(--radius); padding: .65rem 1rem; font-size: .93rem; }
+@media (max-width: 760px) { .semesters { grid-template-columns: 1fr; } }
 @media print {
   .site-header, .site-footer, .filters, .todo { display: none; }
   body { background: #fff; color: #000; }
