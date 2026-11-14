@@ -414,6 +414,17 @@ figcaption { font-size: .9rem; color: var(--muted); margin-top: .5rem; }
 .sem li { margin: .15rem 0; }
 .sem-band { grid-column: 1 / -1; border: 1px dashed var(--line); border-radius: var(--radius); padding: .65rem 1rem; font-size: .93rem; }
 @media (max-width: 760px) { .semesters { grid-template-columns: 1fr; } }
+/* Bronteksten (instrumenten.html) */
+.bron-groep { margin-top: 2.2rem; }
+.bron-groep h2 { margin-bottom: .3rem; }
+.groep-intro { color: var(--ink-soft); margin: 0 0 1rem; }
+.bron-lijst { display: grid; gap: 14px; }
+.brontekst h3 { margin: .3rem 0 .4rem; }
+.brontekst .duiding { margin: .8rem 0 .6rem; display: grid; gap: .55rem; }
+.brontekst .duiding dt { font-weight: 700; font-size: .85rem; color: var(--accent); }
+.brontekst .duiding dd { margin: .1rem 0 0; }
+.brontekst.pending { background: transparent; box-shadow: none; }
+.brontekst.pending h3 { color: var(--ink-soft); }
 @media print {
   .site-header, .site-footer, .filters, .todo { display: none; }
   body { background: #fff; color: #000; }
