@@ -296,36 +296,74 @@ window.DUEL_INSTRUMENTEN = [
 
   // ---------- Begeleiden en beoordelen ----------
   {
-    titel: "Syntheseformulier: eindbeoordeling van een uitdaging",
+    titel: "Syntheseformulieren voor de oriënteringsfase en de uitdagingenfase",
     groep: "begeleiden", type: "Evaluatie en feedback",
-    principes: [8],
-    beschrijving: "Hoe een kwalitatief oordeel over het leren van een student omgezet werd in een score: \"van kwaliteit naar kwantiteit\".",
-    bron: ["2021-2022/Duel/sem 2/evaluatie/syntheseformulier uitdagingen/synthese_uitdagingen_herwerking_22-02-17_na FB-2.docx"],
-    status: "in voorbereiding"
+    principes: [8, 1],
+    beschrijving: "Hoe een kwalitatief oordeel over het leren van een student omgezet werd in een score: \"van kwaliteit naar kwantiteit\". Eén formulier voor de eindbeoordeling van een oriënteringsmodule, één voor de eindbeoordeling van een uitdaging.",
+    duiding: {
+      ontstaan: "Een eerste syntheseformulier ontstond in het voorjaar van 2021 en werd daarna telkens herwerkt, na feedback uit het team. De versie voor de uitdagingenfase dateert van februari 2022, die voor de vernieuwde oriënteringsfase van augustus 2022. De opleiding moest een cijfer op 20 geven; de formulieren proberen dat cijfer trouw te laten blijven aan een holistische kijk op competentie.",
+      zie: "Waarop beoordeel je, en hoe wordt een rijk oordeel toch een cijfer? De formulieren geven daar een helder antwoord op. Ze onderscheiden competenties (weten, kunnen, doen) en leerkwaliteiten (de houding waarmee iemand leert), en maken voor elke fase zichtbaar wat \"goed genoeg\" is: in de oriëntering, en op de drie niveaus van de uitdagingen, van \"aanzetten tot\" over \"onderweg zijn\" naar \"verdiepen en integreren\". Elke score is concreet omschreven. En wie op de competenties of op de leerkwaliteiten de helft niet haalt, slaagt niet: houding is geen extraatje.",
+      context: "De puntenregels, studiepunten en uitdagingsniveaus horen bij het programma van Duel en bij de examenregeling van de hogeschool.",
+      vraag: "Waar verliest jouw beoordeling informatie als je een rijk oordeel moet samenvatten in één cijfer, en hoe vang je dat op?"
+    },
+    bron: [
+      "2022-2023/Duel/O-fase/evaluatie/syntheseformulier_oriëntering_22-08-29.docx",
+      "2021-2022/Duel/sem 2/evaluatie/syntheseformulier uitdagingen/synthese_uitdagingen_herwerking_22-02-17_na FB-2.docx"
+    ],
+    downloads: [
+      { label: "Oriënteringsfase", href: "bronteksten/syntheseformulier-eindbeoordeling-orienteringsmodule-2022-08.pdf", toelichting: "Eindbeoordeling van een oriënteringsmodule (augustus 2022)" },
+      { label: "Uitdagingenfase", href: "bronteksten/syntheseformulier-eindbeoordeling-uitdaging-2022-02.pdf", toelichting: "Eindbeoordeling van een uitdaging (februari 2022)" }
+    ],
+    datum: "februari en augustus 2022",
+    status: "gepubliceerd"
   },
   {
-    titel: "Single point rubric: professionele samenwerkingsrelaties",
+    titel: "Single point rubric: begeleidings- en evaluatiedocument bij een uitdaging",
     groep: "begeleiden", type: "Evaluatie en feedback",
     principes: [8, 6],
-    beschrijving: "Een rubric die alleen het verwachte niveau beschrijft en ruimte laat voor wat de student meer of anders laat zien.",
-    bron: ["2022-2023/Duel/Rubric professionele samenwerkingsrelaties.docx"],
-    status: "in voorbereiding"
+    beschrijving: "Een rubric die alleen het verwachte niveau beschrijft en ruimte laat voor wat de student meer of anders laat zien. Student, mentor en praktijkbegeleider vullen hetzelfde document in. Hier het lege sjabloon bij de uitdaging ruimte voor initiatief.",
+    duiding: {
+      ontstaan: "Gemaakt in januari 2021, bij de start van de eerste uitdagingenfase. Voor elke uitdaging bestond hetzelfde sjabloon, met eigen criteria.",
+      zie: "De student zit \"aan het stuur van zijn leerproces\"; begeleider, mentor en medestudenten zijn \"navigatietools\". Per criterium noteert de student zelf ontwikkelpunten, doelen en wat al gevorderd is. Daarnaast vakken voor de feedback van de mentor, de praktijkbegeleider en een medestudent, en een vaste plaats om tussentijds en op het einde de balans op te maken. Het document legt ook uit waarom: 360°-feedback, en evalueren als een manier van leren.",
+      context: "Het sjabloon verwijst naar de doelen uit LOOQIN, naar het digitale portfolio en naar de studiepunten van de uitdagingsniveaus. Een ingevuld exemplaar van een student is niet gepubliceerd.",
+      vraag: "Wie schrijft in jouw beoordelingsinstrumenten, en wie mag het eerst iets over het leren zeggen: de student of de begeleider?"
+    },
+    bron: ["2020-2021/Duel/2_semester 2/uitdagingen_instructiefiches/uitdaging_initiatief/Rubric ruimte voor initiatief_21-01-20.docx"],
+    download: "bronteksten/single-point-rubric-ruimte-voor-initiatief-2021-01.pdf",
+    datum: "20 januari 2021",
+    status: "gepubliceerd"
   },
   {
     titel: "Feedback geven: praktische richtlijnen",
     groep: "begeleiden", type: ["Leidraad", "Evaluatie en feedback"],
     principes: [8, 6],
     beschrijving: "Richtlijnen voor begeleiders: hoe geef je feedback die het leren van de student ondersteunt?",
+    duiding: {
+      ontstaan: "Geschreven in september 2022, bij de start van de vernieuwde oriënteringsfase, en bijgesteld na feedback uit het team.",
+      zie: "Waar en hoe de begeleider en de mentor feedback noteren, in de oriënterings- en in de uitdagingenfase. Na de feedback van het team een duidelijke keuze: zo eenvoudig mogelijk, de grote lijnen op papier en de klemtoon op het gesprek. In bijlage een voorbeeld van een inventaris waarin student en begeleider met data en nummers naar elkaars teksten verwijzen.",
+      context: "De verwijzingen naar het groeidocument, het begeleidings- en beoordelingsformulier en het syntheseformulier horen bij de instrumenten van Duel. Een deel met open vragen en reacties van collega's is weggelaten.",
+      vraag: "Hoeveel administratie vraagt jouw manier van feedback geven, en weegt die op tegen het gesprek?"
+    },
     bron: ["2022-2023/Duel/begeleiding/werkwijze/feedback geven/Feedback geven_praktische richtlijnen_22-09-15_na FB.docx"],
-    status: "in voorbereiding"
+    download: "bronteksten/feedback-geven-praktische-richtlijnen-2022-09.pdf",
+    datum: "15 september 2022",
+    status: "gepubliceerd"
   },
   {
     titel: "360°-evaluatie: werkdocument",
     groep: "begeleiden", type: "Visietekst",
     principes: [8],
     beschrijving: "Concrete initiatieven om te evolueren naar een evaluatie waarin alle relevante informatie samenhangend en continu zichtbaar wordt.",
+    duiding: {
+      ontstaan: "Geschreven in juni 2020 door het praktijkteam, dat de stages van de reguliere opleiding organiseerde. Het is de concretisering van het speerpunt over 360 graden begeleiding en evaluatie uit de nota \"Dromen over nieuwe keuzes\" van dezelfde datum, en werd een inspiratiebron voor Duel.",
+      zie: "Evaluatie verruimen in vijf richtingen: waartoe, wat, hoe of waar, wanneer en wie. Evaluatie als een manier van leren, met eigenaarschap bij de student. In de bijlagen een beslissingsschema voor de begeleider, een rolverdeling tussen student, medestudenten, mentor en begeleiders, en een begeleidingsstijl die tegemoetkomt aan de behoefte aan autonomie, verbondenheid en competentie. Ook \"gekaderd maatwerk\" duikt hier al op.",
+      context: "Geschreven voor de stages van de reguliere opleiding, met haar stageconcepten, poolwerking en beoordelingsformulieren.",
+      vraag: "Wie heeft in jouw opleiding een stem in de evaluatie van een student, en wie zou er een stem moeten krijgen?"
+    },
     bron: ["2022-2023/Duel/Duel-BakoA/360 graden evaluatie_werkdocument_2020-06-19b.docx"],
-    status: "in voorbereiding"
+    download: "bronteksten/360-graden-evaluatie-werkdocument-2020-06.pdf",
+    datum: "19 juni 2020",
+    status: "gepubliceerd"
   },
 
   // ---------- Aanloop in de reguliere opleiding ----------
