@@ -202,48 +202,96 @@ window.DUEL_INSTRUMENTEN = [
     groep: "inhoud", type: "Leestekst",
     principes: [5, 2],
     beschrijving: "Wie-vragen naast wat-, hoe-, waarom- en waartoe-vragen: welke vraag kenmerkt de opleiding?",
+    duiding: {
+      ontstaan: "Een eerste versie dateert van september 2020, bij de start van Duel; deze herwerkte versie van november 2021. Het was een van de eerste leesteksten die studenten kregen.",
+      zie: "Een eenvoudige situatie: een driejarige die zich op de eerste schooldag vastklampt aan haar moeder. Elke lezer reageert anders, en dat is net het punt. Naast wat, hoe, waarom en waartoe stelt de opleiding telkens ook de vraag: wie ben jij, hoe kijk jij ernaar? De opleiding wordt zo een vorm van zelfonderzoek, altijd gekoppeld aan onderwijs.",
+      context: "Geschreven in de jij-vorm, rechtstreeks voor studenten in de eerste weken van hun opleiding.",
+      vraag: "Waar krijgt de wie-vraag in jouw opleiding ruimte, en waar wordt ze (onbedoeld) overgeslagen?"
+    },
     bron: ["2021-2022/Duel/sem 1/mandjes/mandje_wie-vraag_21-11-09.docx"],
-    status: "in voorbereiding"
+    download: "bronteksten/mandje-wie-vraag-2021-11.pdf",
+    datum: "9 november 2021",
+    status: "gepubliceerd"
   },
   {
     titel: "Mandje: Wanneer is het goed?",
     groep: "inhoud", type: "Leestekst",
     principes: [2, 7],
     beschrijving: "Wat kwaliteitsvol onderwijs is, bekeken vanuit welbevinden en betrokkenheid: de procesgerichte benadering van onderwijskwaliteit.",
+    duiding: {
+      ontstaan: "Leestekst voor de module procesgericht kijken; deze versie dateert van oktober 2022.",
+      zie: "De tekst vertrekt bij de eigen intuïties van de lezer en bij een student die vóór het schooljaar zijn klas met veel zorg inricht. De begeleider kan niet zeggen of het goed is: er lopen nog geen kinderen rond. Kwaliteit lees je af aan de kinderen, aan hun welbevinden en betrokkenheid, niet in de eerste plaats aan de aanpak of aan wat het oplevert.",
+      context: "Gebaseerd op het ervaringsgericht onderwijs (CEGO) en de vaktermen die daarbij horen: aanpak, proces en effect, ervaringsreconstructie.",
+      vraag: "Waaraan lezen jouw studenten af of hun onderwijs goed is, en waaraan lees jij af of jouw opleiding goed is?"
+    },
     bron: ["2022-2023/Duel/O-fase/mandjes/mandje_procesgerichte benadering van onderwijskwaliteit_2.docx"],
-    status: "in voorbereiding"
+    download: "bronteksten/mandje-wanneer-is-het-goed-2022-10.pdf",
+    datum: "oktober 2022",
+    status: "gepubliceerd"
   },
   {
     titel: "Mandje: de leerkracht als gelaagd persoon",
     groep: "inhoud", type: "Leestekst",
     principes: [5, 9],
     beschrijving: "Het ui-model van Korthagen: hoe handelen, competenties, overtuigingen, identiteit en idealen samenhangen.",
+    duiding: {
+      ontstaan: "Geschreven in november 2020, in het eerste jaar van Duel, en later gebruikt in de module persoonsgericht kijken.",
+      zie: "Een juf die het kiesmoment in haar klas \"democratisch\" wil laten verlopen en daarin vastloopt. Aan haar verhaal worden de spanningsvelden zichtbaar tussen wat ze doet, kan, gelooft, wie ze wil zijn en waarvoor ze het doet. Het ui-model maakt die lagen bespreekbaar, met per laag een kernvraag.",
+      context: "Het ui-model komt van Korthagen; de figuur is hertekend. De tekst is in de jij-vorm voor studenten geschreven.",
+      vraag: "Welke ruimte maakt jouw opleiding om naar de binnenste lagen te kijken, en hoe voorkom je dat het een verplichte oefening wordt?"
+    },
     bron: ["2022-2023/Duel/O-fase/mandjes/mandje_gelaagdheid van de persoon_20-11-23.docx"],
-    status: "in voorbereiding"
+    download: "bronteksten/mandje-gelaagdheid-van-de-persoon-2020-11.pdf",
+    datum: "23 november 2020",
+    status: "gepubliceerd"
   },
   {
     titel: "Mandje: reflectief en onderzoeksmatig leren",
     groep: "inhoud", type: "Leestekst",
     principes: [9],
-    beschrijving: "Wat is het, waartoe doe je het en hoe?",
+    beschrijving: "Wat is het, waartoe doe je het en hoe? Met drie leidraden als bijlagen: de drie basisreflectievragen, GRROW en de onderzoekscyclus.",
+    duiding: {
+      ontstaan: "Geschreven in januari 2022 voor de oriënteringsmodule reflectief en onderzoeksmatig leren. De leidraden uit januari 2021 kregen er een plaats in als bijlagen.",
+      zie: "Reflectie vertrekt van een reëel ervaren zorg, zoals die van een leerkracht na een turnles die niet liep zoals ze wilde. Theorie, praktijk en persoon worden verbonden door reflectie: \"Er is de theorie. Er is de praktijk. En ook jij bent er.\" Reflecteren is geen doel op zich, maar een dragende kracht voor verdere professionele ontwikkeling, alleen en samen.",
+      context: "De drie leidraden horen bij de werkvormen van Duel (werkbegeleiding, coaching, supervisie). De figuren van het GRROW-model (naar Clement, 2015) en in bijlage 4 zijn hertekend.",
+      vraag: "Vertrekt reflectie in jouw opleiding bij een zorg die studenten zelf ervaren, of bij een opdracht die de opleiding geeft?"
+    },
     bron: ["2021-2022/Duel/sem 1/mandjes/Duel - mandje_reflectief en onderzoeksmatig leren_22-01-24.docx"],
-    status: "in voorbereiding"
+    download: "bronteksten/mandje-reflectief-en-onderzoeksmatig-leren-2022-01.pdf",
+    datum: "24 januari 2022",
+    status: "gepubliceerd"
   },
   {
     titel: "Mandje: leidraden voor onderzoek en reflectie",
     groep: "inhoud", type: ["Leestekst", "Leidraad"],
     principes: [9],
-    beschrijving: "Hoe je reflectief en onderzoeksmatig met een uitdaging omgaat, van ontwerp tot terugblik.",
+    beschrijving: "Hoe je reflectief en onderzoeksmatig met een uitdaging omgaat, van ontwerp tot terugblik: een onderzoekscyclus in vier fasen, GRROW om een uitdaging te bepalen, en de drie basisreflectievragen.",
+    duiding: {
+      ontstaan: "Geschreven in januari 2021, bij de start van de eerste uitdagingenfase. Een jaar later werden de leidraden bijlagen bij het mandje over reflectief en onderzoeksmatig leren.",
+      zie: "Drie leidraden naast elkaar, elk met een eigen gerichtheid: een onderzoekscyclus (ontwerpen, uitvoeren en observeren, documenteren, delen), GRROW om vanuit inspiratie een uitdaging te bepalen, en drie basisreflectievragen voor een korte analyse. Een bijlage typeert wanneer je welke leidraad gebruikt, met supervisie en het ui-model als derde weg.",
+      context: "Een compacte werktekst; de begrippen worden uitgelegd in de andere mandjes. De figuur van het GRROW-model (naar Clement, 2015) is hertekend.",
+      vraag: "Geef je studenten één reflectiemodel, of meerdere, en weten ze wanneer welk model past?"
+    },
     bron: ["2020-2021/Duel/mandjes/mandje_leidraad onderzoek en reflectie_21-01-06.docx"],
-    status: "in voorbereiding"
+    download: "bronteksten/mandje-leidraden-onderzoek-en-reflectie-2021-01.pdf",
+    datum: "januari 2021",
+    status: "gepubliceerd"
   },
   {
     titel: "Procesgerichte micro-analyses met drie basisreflectievragen",
     groep: "inhoud", type: "Leidraad",
     principes: [9, 2, 3],
     beschrijving: "Wat gebeurde er, waaraan lag het, wat kan anders? Met voorbeelden van korte analyses van een klassituatie.",
+    duiding: {
+      ontstaan: "Gebruikt in september 2022 in de module reflectief en onderzoeksmatig leren, als voorbeeld bij de leidraad met de drie basisreflectievragen.",
+      zie: "Drie korte analyses in drie kolommen: een moeizaam onthaal, een conflict tussen twee kleuters, een voorleesmoment. Telkens eerst een inschatting van welbevinden en betrokkenheid, dan een zoektocht naar oorzaken, ook bij zichzelf (\"Ik ging te snel over tot het spelen van scheidsrechter\"), en dan concrete voornemens.",
+      context: "De namen van de kinderen zijn vervangen. De letters L, M en H staan voor een laag, matig en hoog niveau van welbevinden of betrokkenheid.",
+      vraag: "Hoe kort mag een reflectie zijn om toch tot een ander handelen te leiden?"
+    },
     bron: ["2022-2023/Duel/O-fase/sessies/reflectief en onderzoeksmatig leren/procesgerichte micro-analyses met 3 BRV_voorbeelden.docx"],
-    status: "in voorbereiding"
+    download: "bronteksten/procesgerichte-micro-analyses-drie-basisreflectievragen-2022-09.pdf",
+    datum: "september 2022",
+    status: "gepubliceerd"
   },
 
   // ---------- Begeleiden en beoordelen ----------
