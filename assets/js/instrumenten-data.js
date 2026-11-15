@@ -123,32 +123,79 @@ window.DUEL_INSTRUMENTEN = [
     groep: "inhoud", type: "Raamkader",
     principes: [2, 1],
     beschrijving: "Per module (Wegwijs in kleuteronderwijs, persoonsgericht kijken, procesgericht kijken, reflectief en onderzoeksmatig leren): finaliteit, thema's, concepten en redeneringen. Wegwijs in kleuteronderwijs biedt een basispakket van de inhouden die in de uitdagingenfase verdieping krijgen.",
+    duiding: {
+      ontstaan: "In 2022 werd de oriënteringsfase herwerkt. De studenten stonden van bij de start in de volle klaspraktijk, zonder pedagogisch-didactische voorbereiding. Naast de \"mentale tools\" van de andere modules hadden ze ook \"handelingstools\" nodig. Daarom kwam de module Wegwijs in kleuteronderwijs (14 studiepunten) erbij. Deze versies dateren van augustus 2022.",
+      zie: "Elke module vertrekt van een finaliteit in de ik-vorm, bijvoorbeeld \"Ik kijk kritisch naar mezelf als persoon in mijn rol van leerkracht\". Het raamkader van Wegwijs geeft principes om inhouden te kiezen: direct bruikbaar, essentieel, exemplarisch en verspreid over alle leerdomeinen. Het bevat ook een zelfonderzoek voor wie start: wil en kan ik leerkracht worden via Duel?",
+      context: "Het raamkader van Wegwijs was een werkdocument: de rubrieken over leeractiviteiten en evaluatie bevatten nog losse gedachten en open vragen. Studiepunten, semesters en verwijzingen naar cursussen horen bij het programma van Duel.",
+      vraag: "Hoe vind je het evenwicht tussen een basispakket dat studenten meteen in hun klas kunnen gebruiken en de tijd die nodig is om te leren kijken en oordelen?"
+    },
     bron: ["2022-2023/Duel/O-fase/raamkaders/"],
-    status: "in voorbereiding"
+    downloads: [
+      { label: "Wegwijs in kleuteronderwijs", href: "bronteksten/o-module-wegwijs-in-kleuteronderwijs-raamkader-2022-08.pdf", toelichting: "Raamkader, met bijlagen over de opbouw van het programma, het zelfonderzoek en de inhouden van de uitdagingen" },
+      { label: "Persoonsgericht kijken", href: "bronteksten/o-module-persoonsgericht-kijken-2022-08.pdf", toelichting: "Concretisering doelen en inhouden" },
+      { label: "Procesgericht kijken", href: "bronteksten/o-module-procesgericht-kijken-2022-08.pdf", toelichting: "Concretisering doelen en inhouden" },
+      { label: "Reflectief en onderzoeksmatig leren", href: "bronteksten/o-module-reflectief-en-onderzoeksmatig-leren-2022-08.pdf", toelichting: "Concretisering doelen en inhouden" }
+    ],
+    datum: "29 augustus 2022",
+    status: "gepubliceerd"
   },
   {
     titel: "Uitdaging groeibevorderende relaties: instructiefiche en leercyclus",
     groep: "inhoud", type: "Raamkader",
     principes: [3, 1, 9],
-    beschrijving: "De verwachtingen op drie niveaus en de opzet van de leercyclus: finaliteit en leerweg.",
+    beschrijving: "De instructiefiche voor studenten (finaliteit, doelstellingen, inhouden, literatuur en evaluatie, voor de drie niveaus) en de opzet van de leercyclus voor begeleiders (finaliteit en leerweg).",
+    duiding: {
+      ontstaan: "De instructiefiche is geschreven voor studenten, de opzet van de leercyclus voor de begeleiders. Beide dateren van januari 2022. Samen tonen ze hoe een uitdaging naar twee kanten uitgewerkt werd.",
+      zie: "Een finaliteit in de ik-vorm: \"Ik voed kinderen op.\" De leerweg vertrekt niet van een vakdomein, maar van een betekenisvolle eenheid uit de eigen praktijk: een interactie met een kind, het groepsklimaat, elk kind afzonderlijk. Van daaruit kijken studenten met telkens een andere bril naar de deelaspecten.",
+      context: "De opleidingsonderdelen met hun codes en studiepunten, en de verwijzingen naar cursussen en literatuur van de opleiding. Boekcovers en een schermafdruk zijn weggelaten.",
+      vraag: "Wat verandert er als je een opleidingsonderdeel opbouwt vanuit een situatie uit de praktijk in plaats van vanuit een vakdomein?"
+    },
     bron: ["2021-2022/Duel/sem 2/uitdagingen_instructiefiches/", "2021-2022/Duel/sem 2/uitdagingen_werkwijze/"],
-    status: "in voorbereiding"
+    downloads: [
+      { label: "Instructiefiche", href: "bronteksten/uitdaging-groeibevorderende-relaties-instructiefiche-2022.pdf", toelichting: "Voor studenten (januari 2022)" },
+      { label: "Opzet van de leercyclus", href: "bronteksten/uitdaging-groeibevorderende-relaties-leercyclus-2022.pdf", toelichting: "Voor begeleiders (januari 2022)" }
+    ],
+    datum: "januari 2022",
+    status: "gepubliceerd"
   },
   {
     titel: "Uitdaging krachtige speel- en leeromgeving: instructiefiche, leercyclus en een voorbeeld",
     groep: "inhoud", type: "Raamkader",
     principes: [3, 1, 9],
-    beschrijving: "De verwachtingen op drie niveaus, de opzet van de leercyclus, en een uitgewerkt voorbeeld: een zelfgemaakte betaalautomaat als vertrekpunt voor onderzoek en reflectie.",
-    bron: ["2020-2021/Duel/2_semester 2/uitdagingen_instructiefiches/", "2021-2022/Duel/sem 2/uitdagingen_werkwijze/"],
-    status: "in voorbereiding"
+    beschrijving: "De instructiefiche voor studenten, de opzet van de leercyclus voor begeleiders, en een uitgewerkt voorbeeld: een zelfgemaakte betaalautomaat als vertrekpunt voor onderzoek en reflectie.",
+    duiding: {
+      ontstaan: "De instructiefiche dateert van januari 2021, de opzet van de leercyclus van januari 2022. Het voorbeeld van de betaalautomaat schreef een begeleider in juni 2021 voor een collega-begeleider, bij een eerdere versie van die opzet.",
+      zie: "Cirkelgewijs verruimen: van één activiteit of hoek naar het basismilieu, en dan naar de groep en de individuele kinderen. Het voorbeeld laat zien hoe \"in iets altijd alles zit\": een zelfgemaakte betaalautomaat opent leerkansen over betrokkenheid, ontluikende gecijferdheid, spelscenario's en onderzoekend leren. Het benoemt ook wat dat van begeleiders vraagt: dat \"alles\" ook op het moment zelf zien.",
+      context: "De instructiefiche verwijst naar cursussen van de reguliere opleiding; de namen van de lesgevers zijn weggelaten. Het voorbeeld is geanonimiseerd.",
+      vraag: "Welk alledaags voorbeeld uit de praktijk van je studenten zou jij zo grondig kunnen uitdiepen, en lukt dat ook op het moment zelf?"
+    },
+    bron: ["2020-2021/Duel/2_semester 2/uitdagingen_instructiefiches/", "2021-2022/Duel/sem 2/uitdagingen_werkwijze/", "2020-2021/Z_vernieuwing/pedagogisch-didactische ondersteuning/visie opleidingswijze/"],
+    downloads: [
+      { label: "Instructiefiche", href: "bronteksten/uitdaging-krachtige-speel-en-leeromgeving-instructiefiche-2021.pdf", toelichting: "Voor studenten (januari 2021)" },
+      { label: "Opzet van de leercyclus", href: "bronteksten/uitdaging-krachtige-speel-en-leeromgeving-leercyclus-2022.pdf", toelichting: "Voor begeleiders (januari 2022)" },
+      { label: "Voorbeeld: de betaalautomaat", href: "bronteksten/uitdaging-krachtige-speel-en-leeromgeving-voorbeeld-betaalautomaat-2021.pdf", toelichting: "Werktekst van een begeleider (juni 2021), geanonimiseerd" }
+    ],
+    datum: "2021–2022",
+    status: "gepubliceerd"
   },
   {
     titel: "Uitdaging ruimte voor initiatief: instructiefiche en leercyclus",
     groep: "inhoud", type: "Raamkader",
     principes: [3, 1, 9],
-    beschrijving: "De verwachtingen op drie niveaus en de opzet van de leercyclus: finaliteit en leerweg.",
+    beschrijving: "De instructiefiche voor studenten en de opzet van de leercyclus voor begeleiders, met een eenvoudig instrument om een klasdag in kaart te brengen.",
+    duiding: {
+      ontstaan: "De instructiefiche dateert van januari 2021, de opzet van de leercyclus van januari 2022.",
+      zie: "Een concreet analyse-instrument: studenten zetten een doorsnee klasdag in een tabel en berekenen hoeveel vrij kleuterinitiatief er is, met als streefdoel dat ongeveer 70 procent van de klastijd naar vrije keuze-activiteiten gaat. Daarnaast criteria voor een efficiënte organisatie van ruimte en tijd en voor overtuigend leiden.",
+      context: "Het begrippenkader (vrij kleuterinitiatief, het open frameworkmodel) komt uit het ervaringsgericht kleuteronderwijs waarop Duel steunde. Boekcovers en een schermafdruk zijn weggelaten.",
+      vraag: "Welk eenvoudig instrument zou je studenten helpen hun eigen praktijk met andere ogen te bekijken?"
+    },
     bron: ["2020-2021/Duel/2_semester 2/uitdagingen_instructiefiches/", "2021-2022/Duel/sem 2/uitdagingen_werkwijze/"],
-    status: "in voorbereiding"
+    downloads: [
+      { label: "Instructiefiche", href: "bronteksten/uitdaging-ruimte-voor-initiatief-instructiefiche-2021.pdf", toelichting: "Voor studenten (januari 2021)" },
+      { label: "Opzet van de leercyclus", href: "bronteksten/uitdaging-ruimte-voor-initiatief-leercyclus-2022.pdf", toelichting: "Voor begeleiders (januari 2022)" }
+    ],
+    datum: "2021–2022",
+    status: "gepubliceerd"
   },
   {
     titel: "Mandje: de wie-vraag",
