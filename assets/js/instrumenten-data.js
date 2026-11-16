@@ -417,12 +417,12 @@ window.DUEL_INSTRUMENTEN = [
   },
   {
     titel: "De pedagogische opdracht van de leerkracht",
-    groep: "inhoud", type: ["Leestekst", "Presentatie"],
+    groep: "aanloop", type: ["Leestekst", "Presentatie"],
     principes: [5, 6, 2],
     beschrijving: "Leestekst en twee lessen die samen horen. Waartoe voeden we op? Met Biesta: het verlangen wekken om op een volwassen manier in de wereld te zijn. Waaruit bestaat het pedagogisch werk?",
     duiding: {
-      ontstaan: "Het hoofdstuk komt uit de cursus Opvoedingskader 1 van de reguliere opleiding (2019-2020). De twee lessen werden in april 2023 gegeven en ook in Duel gebruikt bij de uitdaging groeibevorderende relaties.",
-      zie: "Biesta's drie functies van onderwijs en de vraag naar het waartoe van opvoeden. Hetzelfde denken keert terug in de ontwerpprincipes: de student mag als persoon verschijnen.",
+      ontstaan: "Het hoofdstuk komt uit de cursus Opvoedingskader 1 van de reguliere opleiding (2019-2020). In Duel kreeg het een plaats in de uitdaging groeibevorderende relaties: de instructiefiche noemt het als verplichte literatuur en somt bij de inhouden \"waartoe voeden we op\" en \"waaruit bestaat het pedagogisch werk\" op; de opzet van de leercyclus vraagt bij de analyse van een interactie met een kind naar haar pedagogische waarde. De twee lessen werden in april 2023 gegeven.",
+      zie: "Biesta's drie functies van onderwijs en de vraag naar het waartoe van opvoeden. In de uitdaging groeibevorderende relaties wordt die vraag concreet: wat betekent een gewone interactie met een kleuter, gezien vanuit wat opvoeden wil? Hetzelfde denken keert terug in de ontwerpprincipes: ook de student mag als persoon verschijnen.",
       context: "Geschreven als cursustekst voor studenten kleuteronderwijs.",
       vraag: "Waartoe leidt jouw opleiding op, als je de vraag van Biesta ernstig neemt?"
     },
