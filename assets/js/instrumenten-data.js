@@ -384,6 +384,22 @@ window.DUEL_INSTRUMENTEN = [
     status: "gepubliceerd"
   },
   {
+    titel: "Vernieuwd stagetraject: uitgangspunten",
+    groep: "aanloop", type: "Visietekst",
+    principes: [7, 1, 3, 4, 5, 9],
+    beschrijving: "Selectie uit het tussentijds rapport van de stagewerkgroep: congruentie en ervaringsgericht opleiden, vertrekken van de bekommernissen van studenten, diepte en breedte van professionele ontwikkeling, en het kantelen van de opleiding.",
+    duiding: {
+      ontstaan: "Geschreven in mei 2011 door de stagewerkgroep van de reguliere opleiding, die de opdracht had het stagetraject te vernieuwen en te vereenvoudigen. Het rapport werd als tussentijds resultaat aan het opleidingsteam voorgelegd. Hier staat alleen het deel dat een voorloper is van het latere denken; het volledige rapport bevat ook competentiefiches en een uitgewerkte beschrijving van drie ontwikkelingslagen.",
+      zie: "Negen jaar vóór Duel staan hier al de kernen van verschillende ontwerpprincipes: opleidingswijze en opleidingsinhoud vanuit hetzelfde kader (congruentie), vertrekken van wat studenten in de praktijk raakt (gekaderd maatwerk), \"less is more\" (exemplarische uitdieping), de leerkracht als totale persoon en reflectie als scharnier tussen binnen- en buitenkant. De bijlage over de kanteling van de opleiding is de vroegste uitwerking van wat Duel later \"de gekantelde opleiding\" noemde.",
+      context: "Geschreven voor een stagetraject in een reguliere opleiding met vakken en stageperiodes, niet voor studenten die al voltijds in de klas staan.",
+      vraag: "Welke uitgangspunten van jouw opleiding staan al lang op papier, en waar zie je ze terug in de manier waarop je studenten opleidt?"
+    },
+    bron: ["BIBLIOTHEEK/06_achtergrond-en-literatuur/tussentijds-rapport_versie-1_11-05-20 (versie 23 mei opgeslagen als laatste versie).docx"],
+    download: "bronteksten/vernieuwd-stagetraject-uitgangspunten-stagewerkgroep-2011-05.pdf",
+    datum: "20 mei 2011 (selectie)",
+    status: "gepubliceerd"
+  },
+  {
     titel: "Ontwikkelen van reflectiebekwaamheid in de opleiding",
     groep: "aanloop", type: "Visietekst",
     principes: [3, 4, 5, 7, 9],
