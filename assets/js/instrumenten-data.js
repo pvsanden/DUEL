@@ -400,6 +400,22 @@ window.DUEL_INSTRUMENTEN = [
     status: "gepubliceerd"
   },
   {
+    titel: "Congruent opleiden in een kleuteropleiding: een verkenning",
+    groep: "aanloop", type: "Visietekst",
+    principes: [7, 5],
+    beschrijving: "Uit het verslag van de congruentiegroep: wat congruentie betekent volgens het ontwikkelingsprofiel van de lerarenopleider en de literatuur, en wat het kan betekenen in een opleiding tot kleuterleerkracht. Met de collectieve ambitie van het opleidingsteam.",
+    duiding: {
+      ontstaan: "Geschreven in februari 2013 als verslag van de eerste vergadering van een kleine werkgroep in de reguliere opleiding, naar aanleiding van een masterclass voor lerarenopleiders. Daarna bekeken de leden hun eigen lessen met modelen, expliciteren en legitimeren.",
+      zie: "De vragen die congruentie in een kleuteropleiding oproept: moeten opleiders dan hoekenwerk doen? De groep zoekt het antwoord in de visie op leren, niet in de vorm. En een scherpe vaststelling: congruentie is op zich \"een leeg of inhoudsloos begrip\". De vraag is waarmee je congruent wilt zijn. De collectieve ambitie laat die vraag uitdrukkelijk open.",
+      context: "Een verkennende werktekst van een werkgroep, met onvolledige verwijzingen en open vragen; geschreven voor de reguliere opleiding, zeven jaar vóór Duel.",
+      vraag: "Met welke visie op leren wil jouw opleiding congruent zijn, en zou je studenten die visie herkennen in hoe ze opgeleid worden?"
+    },
+    bron: ["congruentiegroep/13-02-01/verslag_13-02-01.docx"],
+    download: "bronteksten/congruent-opleiden-verkenning-congruentiegroep-2013-02.pdf",
+    datum: "1 februari 2013 (selectie)",
+    status: "gepubliceerd"
+  },
+  {
     titel: "Ontwikkelen van reflectiebekwaamheid in de opleiding",
     groep: "aanloop", type: "Visietekst",
     principes: [3, 4, 5, 7, 9],
