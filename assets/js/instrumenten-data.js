@@ -278,6 +278,22 @@ window.DUEL_INSTRUMENTEN = [
     status: "gepubliceerd"
   },
   {
+    titel: "Van betrokkenheidsverhogende factoren naar pedagogisch-didactische principes",
+    groep: "inhoud", type: "Leidraad",
+    principes: [2, 3, 9],
+    beschrijving: "Zeven factoren die de betrokkenheid van kinderen verhogen, elk met een leidende vraag en een reeks concrete ingrepen: sfeer en relatie, activiteit, mogelijkheden van kinderen, werkelijkheidsnabijheid, initiatief, samen en expressie.",
+    duiding: {
+      ontstaan: "Ontstaan in 2016 in de reguliere opleiding, als vertaling van de betrokkenheidsverhogende factoren van het CEGO (Ferre Laevers) naar wat een leerkracht concreet kan doen. Het document werd gebruikt bij de stage en ging mee naar Duel. Daar gebruikten studenten en begeleiders het bij procesgericht kijken, en het hoort rechtstreeks bij de leidraad van de drie basisreflectievragen uit het mandje reflectief en onderzoeksmatig leren: bij de vraag \"waaraan lag het?\" redeneer je onder meer vanuit de zeven betrokkenheidsverhogende factoren en de pedagogisch-didactische principes (PDP's) die erbij horen. Daarnaast kun je, zoals de leidraad voorstelt, nagaan hoe je er zelf als persoon in zat (gelaagdheid).",
+      zie: "Elke factor begint met een vraag in de ik-vorm (\"Hoe kan ik ervoor zorgen dat alle kinderen iets te doen hebben, actief kunnen zijn, kunnen meedoen?\") en eindigt met puntjes: de lijst is een vertrekpunt, geen afvinklijst. Bij het analyseren van een situatie in de klas helpt het document om eerst de eigen aanpak te bevragen: welke factoren spelen mee in het welbevinden en de betrokkenheid van de kinderen, en welke ingrepen kunnen het verschil maken?",
+      context: "Geschreven voor de kleuterklas en gebruikt in een opleiding met een uitgesproken ervaringsgerichte visie. De factoren zelf komen van het CEGO; de uitwerking in concrete ingrepen is van het team. Voor deze publicatie kreeg het document een nieuwe vormgeving: de zeven factoren als verbonden geheel rond betrokkenheid. De verwijzing naar een video over de factoren is behouden.",
+      vraag: "Welk kader geef jij studenten om, vóór ze naar oplossingen zoeken, eerst hun eigen aanpak te bevragen?"
+    },
+    bron: ["2022-2023/Duel/O-fase/sessies/procesgericht kijken/ALG - Ped-did principes.pdf"],
+    download: "bronteksten/pedagogisch-didactische-principes-betrokkenheidsverhogende-factoren.pdf",
+    datum: "2016",
+    status: "gepubliceerd"
+  },
+  {
     titel: "Procesgerichte micro-analyses met drie basisreflectievragen",
     groep: "inhoud", type: "Leidraad",
     principes: [9, 2, 3],
