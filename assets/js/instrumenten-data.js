@@ -29,7 +29,7 @@ window.DUEL_GROEPEN = [
   { id: "opbouw", titel: "De opbouw", tekst: "Hoe de oriënteringsfase en de uitdagingenfase in elkaar zaten. Een overzicht van het geheel in zes semesters staat op de pagina <a href=\"opbouw.html#semesters\">Opbouw</a>." },
   { id: "inhoud", titel: "De inhoudelijke invulling", tekst: "Wat studenten leerden en lazen: de raamkaders van de modules, de uitdagingen met hun leercyclus, en de leesteksten (\"mandjes\")." },
   { id: "begeleiden", titel: "Begeleiden en beoordelen", tekst: "Instrumenten waarmee begeleiders en studenten het leren volgden en beoordeelden." },
-  { id: "aanloop", titel: "Aanloop in de reguliere opleiding", tekst: "Teksten van vóór Duel, uit de reguliere opleiding, waarin al veel van het latere denken zit." }
+  { id: "aanloop", titel: "Aanloop in de reguliere opleiding", tekst: "Teksten uit de reguliere opleiding, de meeste van vóór Duel, waarin al veel van het latere denken zit of waarmee het team in Duel verder werkte." }
 ];
 
 window.DUEL_INSTRUMENTEN = [
@@ -485,6 +485,54 @@ window.DUEL_INSTRUMENTEN = [
       { label: "Presentatie les 10", href: "bronteksten/pedagogische-opdracht-les10-waaruit-bestaat-het-pedagogisch-werk.pdf", toelichting: "Les 10: Waaruit bestaat het pedagogisch werk? (april 2023)" }
     ],
     datum: "leestekst 2019-2020, presentaties april 2023",
+    status: "gepubliceerd"
+  },
+  {
+    titel: "Kijkwijzer reflectiebekwaamheid",
+    groep: "aanloop", type: "Leidraad",
+    principes: [9, 5, 8],
+    beschrijving: "Zes kenmerken van goede reflectie (gestructureerd, aanpakgerelateerd, perspectiefnemend, diepgaand, dynamisch en samen reflecteren), elk met voorbeelden van een zwakke en een betere formulering.",
+    duiding: {
+      ontstaan: "Opgesteld vanuit het praktijkteam; een eerste versie dateert van oktober 2014. Ze concretiseert de kenmerken van goede reflectie uit de visietekst over reflectiebekwaamheid en werd onder meer gebruikt in het opleidingsonderdeel Leraar in Ontwikkeling 1. Het praktijkteam gebruikte de kijkwijzer ook in 2019, toen het team van de reguliere opleiding zich verdiepte in reflectie; bij dynamisch reflecteren kwam toen \"= eigenaarschap\" bij. Hij bleef in gebruik tot 2023-2024.",
+      zie: "Veel voorbeelden gaan over het onthaal. \"De kinderen stoorden het onthaal\" wordt een beschrijving van gedrag en betrokkenheid; \"ik werd boos\" wordt de letterlijke uitroep. Daarna volgen verklaren, perspectief nemen van de kinderen en van jezelf, en de lagen van de persoon, met het voorbeeld van een student die zich slecht voelt bij de denkstoel: \"Zo'n straffende juf wil ik eigenlijk niet zijn.\"",
+      context: "Geschreven voor studenten en begeleiders in de reguliere opleiding, bij de reflecties tijdens de stage. De aanduidingen [Pj1] en [Pj2] geven het programmajaar aan waarin een kenmerk verwacht wordt. De voorbeelden zijn verzonnen.",
+      vraag: "Helpt een lijst met kenmerken studenten om dieper te kijken, of wordt hij een lijst om af te vinken?"
+    },
+    bron: ["2019-2020/praktijkteam/Focus op AC 5/instrumenten/Kijkwijzer reflectiebekwaamheid_criteria.docx"],
+    download: "bronteksten/kijkwijzer-reflectiebekwaamheid-2019.pdf",
+    datum: "oktober 2014, versie 2019",
+    status: "gepubliceerd"
+  },
+  {
+    titel: "Pedagogisch-didactische analyses met drie reflectievragen: twee klassituaties",
+    groep: "aanloop", type: "Leidraad",
+    principes: [9, 2, 7],
+    beschrijving: "Twee voorbeeldanalyses in drie kolommen (wat gebeurde er, waaraan lag het, wat kan ik anders doen?): een onthaal met schoenen bij de jongste kleuters, en een klas met veel conflicten en chaos.",
+    duiding: {
+      ontstaan: "Uitgewerkt in september 2019 door een begeleider van het praktijkteam, in de ik-vorm, op basis van reële situaties en reflecties van studenten tijdens hun stage. Het praktijkteam gebruikte ze op twee opleidingsvergaderingen om met het hele team na te denken over wat goede reflectie is.",
+      zie: "Hoe een korte reflectie van een student uitgroeit tot een analyse: betrokkenheid per moment, de betrokkenheidsverhogende factoren, het onderscheid tussen oorzaak en gevolg, de eigen gespreksstijl, en de organisatie van ruimte en tijd. De micro-analyse \"Moeizaam onthaal\" die Duel in 2022 gebruikte, is er herkenbaar een afstammeling van.",
+      context: "Geschreven voor docenten, als voorbeeld. Het gaat om stagesituaties in een klas die niet de eigen klas van de student was. De namen van kinderen zijn vervangen.",
+      vraag: "Hoeveel voorbeeld geef je studenten, en wanneer neemt een voorbeeld het denkwerk over?"
+    },
+    bron: ["2019-2020/praktijkteam/Focus op AC 5/voorbeelden/pedagogisch-didactische analyse_2 voorbeelden klassituaties student-b.docx"],
+    download: "bronteksten/pedagogisch-didactische-analyses-twee-klassituaties-2019-09.pdf",
+    datum: "september 2019",
+    status: "gepubliceerd"
+  },
+  {
+    titel: "Theorie correct en doorleefd begrijpen: opzet van een les",
+    groep: "aanloop", type: "Leidraad",
+    principes: [9, 5, 8],
+    beschrijving: "Opzet van een les in de reguliere opleiding (Opvoedingskader 3) over autonomie verlenen en procesgericht kijken. Drie oefeningen in trio's: de theorie correct begrijpen, ze doorleefd begrijpen vanuit eigen ervaringen, en nagaan wat ze van je vraagt als leerkracht.",
+    duiding: {
+      ontstaan: "Opgesteld in februari 2022 door de lesgevers van Opvoedingskader 3, voor een lessenreeks met flipped classroom: de studenten beluisterden de opgenomen les vooraf, het contactmoment diende om de theorie te verwerken. In dezelfde week werd de opzet gedeeld met een begeleider van Duel. Studenten van niveau 1 vonden het daar moeilijk om theorie te verbinden met de werkgerelateerde zorg in hun uitdaging. De vragen van oefening 3 konden volgens het team \"voor eender welke uitdaging en eender welk aspect van de klaspraktijk dienen\". Dat de werkvorm in Duel veel \"mediëring\" door de begeleiders vraagt, \"want vanzelf komt dit niet\", staat in een chatbericht binnen het team.",
+      zie: "Het onderscheid tussen correct begrijpen (wat betekent de theorie, zoals ze bedoeld is?) en doorleefd begrijpen (hoe verhoud ik me ertoe, vanuit mijn praktijk en wie ik ben?). Dat zijn ook de criteria waarop Duel de oriënteringsfase beoordeelde. Oefening 3 volgt de lagen van het ui-model: context, competentie, overtuigingen, identiteit, idealen. Het voorbeeld achteraan, een conflict in de bouwhoek, toont dezelfde redenering: wat veronderstelt deze aanpak bij de leerkracht?",
+      context: "Een kladversie voor één contactmoment in een opleidingsonderdeel van de reguliere opleiding, met studenten die op stage gaan. De concepten (autonomie verlenen, procesgerichte kwaliteit) komen uit het ervaringsgericht onderwijs.",
+      vraag: "Hoe help jij studenten om theorie niet alleen correct, maar ook doorleefd te begrijpen?"
+    },
+    bron: ["2021-2022/OPK/OPK-3/lessen/les 1_inleiding_AV_procesbenadering/Les-1_opzet.docx"],
+    download: "bronteksten/theorie-correct-en-doorleefd-begrijpen-opk3-les1-2022-02.pdf",
+    datum: "februari 2022",
     status: "gepubliceerd"
   }
 ];
