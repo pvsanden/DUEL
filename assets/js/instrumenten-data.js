@@ -495,7 +495,7 @@ window.DUEL_INSTRUMENTEN = [
     duiding: {
       ontstaan: "Opgesteld vanuit het praktijkteam; een eerste versie dateert van oktober 2014. Ze concretiseert de kenmerken van goede reflectie uit de visietekst over reflectiebekwaamheid en werd onder meer gebruikt in het opleidingsonderdeel Leraar in Ontwikkeling 1. Het praktijkteam gebruikte de kijkwijzer ook in 2019, toen het team van de reguliere opleiding zich verdiepte in reflectie; bij dynamisch reflecteren kwam toen \"= eigenaarschap\" bij. Hij bleef in gebruik tot 2023-2024.",
       zie: "Veel voorbeelden gaan over het onthaal. \"De kinderen stoorden het onthaal\" wordt een beschrijving van gedrag en betrokkenheid; \"ik werd boos\" wordt de letterlijke uitroep. Daarna volgen verklaren, perspectief nemen van de kinderen en van jezelf, en de lagen van de persoon, met het voorbeeld van een student die zich slecht voelt bij de denkstoel: \"Zo'n straffende juf wil ik eigenlijk niet zijn.\"",
-      context: "Geschreven voor studenten en begeleiders in de reguliere opleiding, bij de reflecties tijdens de stage. De aanduidingen [Pj1] en [Pj2] geven het programmajaar aan waarin een kenmerk verwacht wordt. De voorbeelden zijn verzonnen.",
+      context: "Geschreven voor studenten en begeleiders in de reguliere opleiding, bij de reflecties tijdens de stage. De voorbeelden zijn verzonnen.",
       vraag: "Helpt een lijst met kenmerken studenten om dieper te kijken, of wordt hij een lijst om af te vinken?"
     },
     bron: ["2019-2020/praktijkteam/Focus op AC 5/instrumenten/Kijkwijzer reflectiebekwaamheid_criteria.docx"],
