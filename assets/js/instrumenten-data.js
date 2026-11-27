@@ -550,5 +550,37 @@ window.DUEL_INSTRUMENTEN = [
     download: "bronteksten/stimuleren-van-ontwikkeling-naar-geletterdheid-en-gecijferdheid-2021-05.pdf",
     datum: "mei 2021",
     status: "gepubliceerd"
+  },
+  {
+    titel: "Maken van voorbereidend denkwerk: een denk- en begeleidingskader",
+    groep: "aanloop", type: "Leidraad",
+    principes: [1, 8, 9],
+    beschrijving: "Een kader voor studenten en stagebegeleiders om voorbereidingen samen te beoordelen (degelijk, zinvol, haalbaar) en er een leerweg rond uit te stippelen, met een checklist voor zelfstandigheid en eigenaarschap.",
+    duiding: {
+      ontstaan: "Geschreven door de stagewerkgroep van de reguliere opleiding in maart 2021, na een gesprek met studenten van het tweede jaar over hun zorg om het \"papierwerk\" te combineren met het meedoen in de klas. In hetzelfde jaar startte Duel.",
+      zie: "Geen regels over hoeveel en hoe uitgebreid, maar oriënterende criteria en een leerweg op maat. Het leren voorbereiden wordt zelf een onderzoekscyclus, met de drie basisreflectievragen en een fase van delen. De checklist maakt zelfstandigheid en eigenaarschap concreet.",
+      context: "Geschreven voor de stages in de tweede fase van de reguliere opleiding, met verwijzingen naar het stappenplan stagevoorbereiding en de fiches van de opleiding. De afkortingen zijn bij de publicatie in een kader verklaard.",
+      vraag: "Wie bepaalt in jouw opleiding wanneer een voorbereiding goed genoeg is?"
+    },
+    bron: ["2021-2022/Z_vernieuwing/pedagogisch-didactische ondersteuning/stagebegeleider zijn/begeleiden van voorbereidend denkwerk_denkkader_21-03-31-2.docx"],
+    download: "bronteksten/voorbereidend-denkwerk-denk-en-begeleidingskader-2021-03.pdf",
+    datum: "maart 2021",
+    status: "gepubliceerd"
+  },
+  {
+    titel: "Leerkwaliteiten: hoe zit je in je leren?",
+    groep: "begeleiden", type: "Leidraad",
+    principes: [8, 5, 7],
+    beschrijving: "Een folder voor studenten met zeven leerkwaliteiten (begrijpen, eigenaarschap, zelfstandigheid, exploratie, groeimindset, betrokkenheid en welbevinden), elk met een omschrijving en hulpvragen voor zelfonderzoek.",
+    duiding: {
+      ontstaan: "Het praktijkteam stelde in 2020 voor om studenten op stage ook op te volgen vanuit de manier waarop ze in hun leren zitten, en nam de kwaliteiten op in het begeleidingsformulier dat student en stagebegeleider samen invulden. Ze gaan terug op de droomkwaliteiten uit de nota van juni 2020. Deze versie dateert van september 2021 en werd ook in Duel gebruikt, bij de synthese van de oriënteringsfase en de uitdagingenfase.",
+      zie: "Leerkwaliteiten als \"bedding\" van het leren, niet als afvinklijst. De vragen bij eigenaarschap en zelfstandigheid staan ook in het denk- en begeleidingskader voor voorbereidend denkwerk. Studenten schatten hun eigen betrokkenheid en welbevinden in met dezelfde schalen die ze bij kleuters gebruiken.",
+      context: "Geschreven voor studenten van de reguliere opleiding op stage. In Duel kreeg het begrip later een andere invulling: vijf leerkwaliteiten die in de syntheseformulieren voor de helft meetelden.",
+      vraag: "Hoe maak jij zichtbaar hoe studenten in hun leren zitten, naast wat ze kennen en kunnen?"
+    },
+    bron: ["2021-2022/Duel/sem 1/evaluatie/synthese orientering/Leerkwaliteiten .docx"],
+    download: "bronteksten/leerkwaliteiten-hoe-zit-je-in-je-leren-2021.pdf",
+    datum: "september 2021",
+    status: "gepubliceerd"
   }
 ];
