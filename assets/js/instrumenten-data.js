@@ -534,5 +534,21 @@ window.DUEL_INSTRUMENTEN = [
     download: "bronteksten/theorie-correct-en-doorleefd-begrijpen-opk3-les1-2022-02.pdf",
     datum: "februari 2022",
     status: "gepubliceerd"
+  },
+  {
+    titel: "Stimuleren van ontwikkeling naar geletterdheid en gecijferdheid",
+    groep: "aanloop", type: "Visietekst",
+    principes: [3, 4, 9],
+    beschrijving: "Overwegingen vanuit de ervaringsgerichte visie op leren en motivatie bij de druk om kleuters klaar te maken voor het eerste leerjaar: betrokkenheid als toetssteen, fundamenteel in plaats van oppervlakkig leren, spel verrijken, eerst de functie van lezen, schrijven en rekenen.",
+    duiding: {
+      ontstaan: "Geschreven in het opleidingsteam in mei 2021, met een kleine aanvulling in oktober 2021, voor studenten van de reguliere opleiding die op stage zagen hoe vooral na Pasen veel geleid aanbod (werkblaadjes, lotto's, memories) de klas vulde. De tekst werd gedeeld in het Duel-team, als bijlage bij de werktekst over de betaalautomaat.",
+      zie: "Een visie die geleid aanbod niet afwijst, maar toetst aan betrokkenheid en betekenis. Het onderscheid tussen de telrij opzeggen en getalbegrip. Het winkelspel en het boodschappenlijstje als voorbeelden van spel waarin geletterdheid en gecijferdheid vanzelf hun plaats vinden.",
+      context: "Geschreven voor studenten op stage, met verwijzingen naar opleidingsonderdelen die in het origineel niet ingevuld werden. De afkortingen (ervaringskansen, VKI) zijn bij de publicatie in een kader verklaard.",
+      vraag: "Hoe help jij studenten om een eigen standpunt in te nemen tegenover wat ze in hun stageklas zien gebeuren?"
+    },
+    bron: ["2021-2022/Z_vernieuwing/pedagogisch-didactische ondersteuning/visie opleidingsinhoud/stimuleren van ontwikkeling naar geletterdheid en gecijferdheid_21-05-12.docx"],
+    download: "bronteksten/stimuleren-van-ontwikkeling-naar-geletterdheid-en-gecijferdheid-2021-05.pdf",
+    datum: "mei 2021",
+    status: "gepubliceerd"
   }
 ];
